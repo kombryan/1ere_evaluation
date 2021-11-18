@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Lobster+Two:ital,wght@1,400;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-
+$color1 {
+    background-color: #7FC8A9
+}
+$color2 {
+    background-color: #D5EEBB
+}
+$color3 {
+    background-color: #5F7A61
+}
+$color4 {
+    background-color: #444941
+}
 
 
 body {
     font-family: 'Merriweather', serif;
+    
 }
 
 h1 {
