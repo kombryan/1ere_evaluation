@@ -16,9 +16,11 @@ $color4 {
 
 body {
     font-family: 'Merriweather', serif;
-    
+    background-color: #D5EEBB;
+    color: #5F7A61;
 }
 
 h1 {
     font-family: 'Lobster Two', cursive;
+    color: #444941;
 }
