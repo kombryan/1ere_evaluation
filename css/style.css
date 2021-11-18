@@ -55,3 +55,27 @@ nav a {
     color: #444941;
     text-decoration: none;
 }
+
+main {
+    max-width: 500px;
+    display: flex;
+    margin: auto;
+}
+
+section.presentation {
+    background-color: yellowgreen;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+
+main img {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+section.presentation .description {
+    padding: 10px;
+}
