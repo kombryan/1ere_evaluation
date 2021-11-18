@@ -17,10 +17,41 @@ $color4 {
 body {
     font-family: 'Merriweather', serif;
     background-color: #D5EEBB;
-    color: #5F7A61;
+    color: #444941;
+    font-size: 16px;
+    margin: 0 ;
+    height: 1000px;
+
+    
 }
 
-h1 {
+header {
+    background-color: #7FC8A9;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo {
     font-family: 'Lobster Two', cursive;
     color: #444941;
+    font-size: 3rem;
+    margin: auto 30px;
+}
+
+.main_pages {
+    display: flex;
+    flex-direction: column;
+}
+
+.items {
+    margin: 5px;
+}
+
+nav a {
+    color: #444941;
+    text-decoration: none;
 }
