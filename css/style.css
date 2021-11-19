@@ -20,9 +20,6 @@ body {
     color: #444941;
     font-size: 16px;
     margin: 0 ;
-    height: 1000px;
-
-    
 }
 
 header {
@@ -60,12 +57,14 @@ main {
     max-width: 500px;
     display: flex;
     margin: auto;
+    flex-direction: column;
 }
 
 section.presentation {
     background-color: yellowgreen;
     margin: 30px auto;
     border-radius: 10px;
+    
 }
 
 
@@ -86,4 +85,31 @@ h1 {
     justify-content: center;
     text-decoration: underline;
     padding: 15px;
+}
+
+
+
+
+
+footer{
+    background-color: black;  
+    height: 110px;    
+}
+
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links a {
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.copyright {
+    margin: 35px auto;
+    width: 80%;
+    text-align: center; 
 }
