@@ -79,3 +79,11 @@ main img {
 section.presentation .description {
     padding: 10px;
 }
+
+h1 {
+    font-family: 'Lobster Two', cursive;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    padding: 15px;
+}
